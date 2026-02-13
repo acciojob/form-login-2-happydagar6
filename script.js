@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const form = document.getElementById("myForm");
-form.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
 	e.preventDefault();
 
 	const firstName = form.elements["First Name"].value;
